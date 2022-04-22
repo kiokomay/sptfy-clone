@@ -11,6 +11,6 @@ export async function middleware(req) {
   }
 
   if (!token && pathname !== '/login') {
-    return NextResponse.redirect('https://sptfy-clone.herokuapp.com/login')
+    return NextResponse.redirect('https://sptfyclone.online/login')
   }
 }
